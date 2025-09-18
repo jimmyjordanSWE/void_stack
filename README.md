@@ -21,12 +21,6 @@ void *result = void_stack_pop(&stack);
 printf("%d\n", *(int*)result);  // prints: 42
 ```
 
-## Build
-
-```bash
-gcc -Wall -Wextra -std=c99 main.c void_stack.c -o program
-```
-
 ## Functions
 
 - `void_stack_push()` - Add element
