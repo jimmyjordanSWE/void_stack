@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 
+/* todo can this be hidden in the .c file? */
 typedef enum {
   VOID_STACK_SUCCESS = 0,             /* Operation completed successfully */
   VOID_STACK_ERROR_NULL_POINTER = -1, /* NULL pointer passed as argument */
@@ -10,6 +11,7 @@ typedef enum {
   VOID_STACK_ERROR_EMPTY = -3         /* Operation on empty stack */
 } void_stack_result_t;
 
+/* todo can this also be hidden in the .c file? */
 typedef struct {
   void *next;
   const void *payload;
