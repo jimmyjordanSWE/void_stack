@@ -2,16 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* todo JJ
-Missing from "production ready" according to claude
+/* todo
+IMPLEMENT:
+    init()
+    destroy_stack()
+    is_empty()
+    clear()
 
-implement functions:
-    init
-    destroy_stack
-    is_empty
-    clear
-
-Error handling
+Add error handling with enums:
 use void_stack_result_t as return type and then get data out from the functions
 by passing in a pointer. claude: "This is the standard pattern for professional
 C APIs where you need both return data and error information."
